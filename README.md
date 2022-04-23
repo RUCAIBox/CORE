@@ -62,7 +62,7 @@ We split the sessions in each dataset into train/validation/test set in temporal
 
 ## Acknowledgement
 
-The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole).
+The implementation is based on the open-source recommendation library [RecBole](https://github.com/RUCAIBox/RecBole) and [RecBole-GNN](https://github.com/RUCAIBox/RecBole-GNN).
 
 Please cite the following papers as the references if you use our codes or the processed datasets.
 
