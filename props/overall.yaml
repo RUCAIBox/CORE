@@ -1,0 +1,17 @@
+USER_ID_FIELD: session_id
+benchmark_filename: [train, valid, test]
+alias_of_item_id: [item_id_list]
+load_col:
+  inter: [session_id, item_id_list, item_id]
+
+topk: [10, 20]
+metrics: [Recall, MRR]
+valid_metric: MRR@20
+eval_batch_size: 2048
+stopping_step: 5
+eval_args:
+  order: TO
+  split:
+    RS: [0.8, 0.1, 0.1]
+
+neg_sampling: ~
