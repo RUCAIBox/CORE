@@ -14,7 +14,7 @@ We argue that session embedding encoded by non-linear encoder is usually not in 
 ## Requirements
 
 ```
-recbole>=1.0.0
+recbole==1.0.1
 python==3.7
 pytorch==1.7.1
 cudatoolkit==10.1
